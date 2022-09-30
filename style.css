@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width:1500px;
+    margin:0 auto;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(54, 2, 88);
+    position: sticky;
+    top: 0;
+}
+
+.mytunes {
+    padding: 10px 0;
+    padding-left: 70px;
+    font-size: 22px;
+}
+
+.top {
+    padding: 12px 0;
+    padding-right: 40px;
+}
+
+.top a {
+    color: white;
+    text-decoration: none;
+    font-size: 16.5px;
+    padding-right: 30px;
+}
+.top a:hover{
+    color: rgb(255, 1, 234);
+}
+
+.main1 {
+    background-image: url(./images/pic1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    padding: 170px 150px;
+}
+
+.heading h1 {
+    font-size: 75px;
+    padding-top: 45px;
+}
+
+.heading1 {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.heading2 {
+    padding: 0 140px;
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 50;
+}
+
+.musicpage {
+    background-color: rgb(95, 39, 128);
+}
+
+.page {
+    text-align: center;
+    padding: 40px 100px;
+    color: white;
+    padding-bottom: 400px;
+}
+
+.page h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.mp1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.mp2 {
+    padding: 0 100px;
+    padding-top: 30px;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+
+.cmp3 {
+    margin: 55px;
+}
+.cmp3 a{
+    color: white;
+    text-decoration: none;
+}
+.mp3 {
+    background-color: rgb(255, 31, 31);
+    padding: 15px 12px;
+    font-size: 20px;
+}
+.mp3:hover{
+    background-color: red;
+    border: 1px solid white;
+}
+.device{
+    text-align: center;
+    margin-top: -350px;
+}
+.device img{
+    width: 60vw;
+    height: 50vw;
+
+}
+.data{
+    margin: 50px 0;
+    text-align: center;
+}
+.data2{
+    font-size: 18px;
+    padding: 35px 150px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.data3button{
+    background-color: rgb(73, 41, 148);
+    color: white;
+    padding: 10px 18px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.data3 a{
+    text-decoration: none;
+}
+.data3button:hover{
+    cursor: pointer;
+    background-color: rgb(32, 4, 97);
+    border: 2px solid rgb(25, 247, 255);
+}
+.laptop{
+    background-color: rgb(255, 242, 242);
+    padding-left: 265px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.laptop img{
+    width: 60vw;
+    height: 80vh;
+}
+.banner img{
+    width:100%;
+}
+.cards{
+    display: flex;
+    margin:80px 80px ;
+}
+.giftdata{
+    margin-left: 30px;
+}
+.giftdata h2{
+    font-size: 30px;
+}
+.giftdata1{
+    padding-top: 20px;
+    line-height: 28px;
+}
+.giftdata2{
+    margin: 30px 0;
+    padding: 13px 15px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.redeem{
+    float: right;
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(31, 3, 54);
+}
+.redeem:hover{
+    cursor: pointer;
+    background-color: rgb(52, 14, 83);
+}
+.contact{
+    display: flex;
+    background-color:rgb(31, 3, 54);
+    padding:50px;
+    justify-content: center;
+}
+.shop,.orange,.educate,.about{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.shop p,.orange p,.educate p,.about p{
+    color:white;
+    font-size: 20px;
+    padding-right: 50px;
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+}
+.shop a,.orange a,.educate a,.about a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+.shop a:hover,.orange a:hover,.educate a:hover,.about a:hover{
+    color:rgb(240, 27, 63);
+}
+footer{
+    background-color: rgb(89, 42, 151);
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+@media (max-width:935){
+    .device img{
+        width: 30px;
+        height: 30px;
+    }
+}
